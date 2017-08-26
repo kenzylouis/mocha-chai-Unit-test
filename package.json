@@ -4,8 +4,9 @@
   "description": "Simple app for testing",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha || true"
   },
+  "_comment": "remove verbose output by running: npm run test -s. or add : mocha|| true. in the test line above",
   "author": "",
   "license": "ISC",
   "devDependencies": {
